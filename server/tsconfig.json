@@ -3,6 +3,7 @@
   "compilerOptions": {
     // File Layout
     // "rootDir": "./src",
+    "target": "es2016",
     "outDir": "./dist",
 
     // Environment Settings
