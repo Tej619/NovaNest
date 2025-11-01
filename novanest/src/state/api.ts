@@ -34,7 +34,7 @@ export const api = createApi({
     "Applications",
   ],
   endpoints: (build) => ({
-    getAuthUser: build.query<User, void>({
+    getAuthUser: build.query<User, void>({      //User will be send back and void will be the backend
       queryFn: async (_, _queryApi, _extraoptions, fetchWithBQ) => {
         try {
           const session = await fetchAuthSession();

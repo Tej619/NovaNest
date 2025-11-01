@@ -21,6 +21,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
+//to give only particular route to manager (role based)
+// app.get("/", authMiddleware(["manager"]),(req, res) => {
+//   res.send("Testing");
+// });
 app.get("/", (req, res) => {
   res.send("This is home route");
 });

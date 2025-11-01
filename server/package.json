@@ -8,7 +8,7 @@
     "dev": "npm run build && concurrently \"npx tsc -w\" \"nodemon --exec ts-node src/index.ts\"",
     "seed": "ts-node prisma/seed.ts",
     "prisma:generate": "prisma generate",
-    "postprisma:generate": "shx cp -r node_modules/.prisma/client/index.d.ts ../client/src/types/prismaTypes.d.ts"
+    "postprisma:generate": "shx cp -r node_modules/.prisma/client/index.d.ts ../novanest/src/types/prismaTypes.d.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.879.0",
     "@aws-sdk/lib-storage": "^3.879.0",
-    "@prisma/client": "^6.15.0",
+    "@prisma/client": "^6.18.0",
     "@terraformer/wkt": "^2.2.1",
     "axios": "^1.11.0",
     "body-parser": "^2.2.0",
@@ -28,7 +28,7 @@
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.1",
     "multer": "^2.0.2",
-    "prisma": "^6.15.0",
+    "prisma": "^6.18.0",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
