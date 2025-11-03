@@ -113,7 +113,7 @@ export const createApplication = async (
       // Create lease
       const lease = await prisma.lease.create({
         data: {
-          startDate: new Date(), // Today
+          startDate: new Date(), //hardcoded value as todays date
           endDate: new Date(
             new Date().setFullYear(new Date().getFullYear() + 1)
           ), // 1 year from today
