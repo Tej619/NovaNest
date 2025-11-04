@@ -19,7 +19,6 @@ const PropertyDetails = ({ propertyId }: PropertyDetailsProps) => {
 
   return (
     <div className="mb-6">
-      {/* Amenities */}
       <div>
         <h2 className="text-xl font-semibold my-3">Property Amenities</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">

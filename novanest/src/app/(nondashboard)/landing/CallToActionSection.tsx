@@ -30,8 +30,7 @@ const CallToActionSection = () => {
           </div>
           <div>
             <p className="text-white mb-3">
-              Discover a wide range of rental properties in your desired
-              location.
+              Smart Real Estate Platform
             </p>
             <div className="flex justify-center md:justify-start gap-4">
               <button

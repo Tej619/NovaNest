@@ -224,7 +224,7 @@ const FiltersBar = () => {
             <SelectValue placeholder="Home Type" />
           </SelectTrigger>
           <SelectContent className="bg-white">
-            <SelectItem value="any">Any Property Type</SelectItem>
+            <SelectItem value="any">Property Type</SelectItem>
             {Object.entries(PropertyTypeIcons).map(([type, Icon]) => (
               <SelectItem key={type} value={type}>
                 <div className="flex items-center">
