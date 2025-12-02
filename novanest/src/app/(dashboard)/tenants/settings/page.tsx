@@ -13,6 +13,8 @@ const TenantSettings = () => {
 
   if (isLoading) return <>Loading...</>;
 
+  console.log("userinfo",authUser);
+
   const initialData = {
     name: authUser?.userInfo.name,
     email: authUser?.userInfo.email,
