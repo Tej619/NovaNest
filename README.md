@@ -5,9 +5,11 @@ git clone https://github.com/Tej619/NovaNest.git
 add .env file and enter the key values to the project.
 
 cd novanest
+
 npm run dev
 
 cd ../server/
+
 npm run dev
 
 
