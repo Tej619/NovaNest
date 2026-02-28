@@ -6,9 +6,13 @@ add .env file and enter the key values to the project.
 
 cd novanest
 
+npm i
+
 npm run dev
 
 cd ../server/
+
+npm i
 
 npm run dev
 
